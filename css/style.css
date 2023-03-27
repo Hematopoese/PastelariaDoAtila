@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.menu{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+}
+span{
+    color: #ff1e1e;
+}
+.menu nav > a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 11px;
+}
+.menu nav a:hover{
+    color: #ff1e1e;
+}
+.singIn{
+    background: #ff1e1e;
+    color: #fff;
+    padding: 11px 19px;
+    border: 1px solid #ff1e1e;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.singUp{
+    background: none;
+    color: #ff1e1e;
+    padding: 11px 19px;
+    border: none;
+    border: 1px solid #ff1e1e;
+    border-radius: 25px;
+    cursor: pointer;
+}
+/*BANNER*/
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/bg-pastel.png);
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+.box{
+    width: 75%;
+    margin: 0 auto;
+}
+.box h1{
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+.box h5{
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.box p{
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.box button{
+    font-size: 25px;
+    padding: 18px 28px;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+/*TERMOS*/
+.about{
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.about .container img{
+    height: auto;
+    width: 350px;
+    border-radius: 15px;
+}
+.about .about-text{
+    width: 50%;
+}
+.about .about-text h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.about .about-text h5{
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+.about .about-text p{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+/*CARDÁPIO*/
+.cardapio{
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+    color: #fff;
+}
+.cardapio .container-serv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.card{
+    background: #111;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.cardapio .card i{
+    display: block;
+    color: #ff1e1e;
+    font-size: 50px;
+    margin: 25px 0;
+}
+.cardapio .card h6{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cardapio .card p{
+    margin-bottom: 50px;
+    color: #929292;
+}
+/*SERVIÇOC*/
+.banner-serv{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/bg-pastel.png);
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-serv{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row img{
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+.row{
+    background: #ffffff85;
+    margin: auto 6px;
+    border-radius: 10px;
+    padding: 0 0 20px 0;
+    cursor: pointer;
+}
+.row h6{
+    padding-left: 20px;
+    font-size: 18px;
+    margin: 18px auto;
+}
+.row p{
+    padding-left: 20px;
+}
+/*CONTACTAR*/
+.contactar{
+    height: 100vh;
+    color: #fff;
+    background: #000;
+}
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.coluna > article{
+    margin: 12px;
+}
+.coluna .form{
+    width: 50%;
+}
+.input-float{
+    background: #333;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.mapa{
+    width: 50%;
+    border-radius: 10px;
+}
+.mapa iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 680px){
+    .menu{
+        flex-direction: column;
+    }
+    .menu h3{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    nav{
+        display: none;
+    }
+    .menu .singIn{
+        display: none;
+    }
+    .singUp{
+        display: none;
+    }
+    /**/
+    .about .container{ 
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about .about-text{
+        width: 80%;
+    }
+    .about .about-text h2{
+        font-size: 30px;
+    }
+    .about .about-text h5{
+        font-size: 15px;
+    }
+    .about .container img{
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    /**/
+    .cardapio{
+        height: 150vh;
+    }
+    .container-serv{
+        flex-direction: column;
+    }
+    .container-serv > div{
+        margin: 15px 0;
+    }
+    /**/
+    .banner-serv{
+        height: 150vh;
+    }
+    /**/
+    .contactar{
+        height: 115vh;
+    }
+    .coluna{
+        flex-direction: column-reverse;
+    }
+    .coluna .form{
+        width: 100%;
+    }
+    .mapa{
+        width: 100%;
+    }
+}   
+
